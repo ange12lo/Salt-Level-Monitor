@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+# Ignoriere die Konfigurationsdatei
+config.h
+
+# Ignoriere andere sensible oder generierte Dateien
+*.key
+*.pem
+*.cer
+build/
+.vscode/
